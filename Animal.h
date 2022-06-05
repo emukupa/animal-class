@@ -15,5 +15,5 @@ public:
     ~Animal();                         // destructor
     Animal &operator=(const Animal &); // copy operator
     void print() const;
-}
+};
 #endif // !ANIMAL_INTERFACE

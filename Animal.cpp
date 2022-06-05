@@ -1,4 +1,3 @@
-// #include <string>
 #include "Animal.h"
 
 const std::string unk = "unknown";
@@ -28,7 +27,7 @@ Animal::Animal(const Animal &animal)
 // destructor
 Animal::~Animal()
 {
-    printf("Destructor: %s the %s/n", animal_name.c_str(), animal_type.c_str());
+    printf("Destructor: %s the %s\n", animal_name.c_str(), animal_type.c_str());
     animal_name = "";
     animal_sound = "";
     animal_type = "";
